@@ -7,7 +7,9 @@ end
 # need to change array to a string, capitalize each word and add ! and covert back # #to array
 def summon_captain_planet(array)
   planeteer_calls = []
-  array.collect do |call|
-  planeteer_calls << {|el, ind| planeteer_calls.capitalize + "!" }
+  array.collect do |calls|
+    planeteer_calls << "{calls.capitalize}!"
+  end
+  planeteer_calls
 end
   
