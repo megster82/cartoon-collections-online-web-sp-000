@@ -4,7 +4,8 @@ def roll_call_dwarves(array)
 end 
 # prints out 7 dwarves in a numbered list 
 
-# need to change array to a string, capitalize each word and add ! and covert back # #to array
+# need to iterate through array, capitalize each word & add !
+
 def summon_captain_planet(array)
   planeteer_calls = []
   array.collect do |calls|
@@ -12,4 +13,6 @@ def summon_captain_planet(array)
   end
   planeteer_calls
 end
+
+
   
