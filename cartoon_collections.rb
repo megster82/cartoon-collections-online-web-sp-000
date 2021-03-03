@@ -6,6 +6,6 @@ end
 
 def summon_captain_planet(array)
   # need to change array to a string, capitalize each word and add ! and covert back #to array
-  planeteer_calls.map {|el, ind| new_array << puts "#{planeteer_calls.capitalize + "!"} }
+  planeteer_calls.map {|el, ind| planeteer_calls.capitalize + "!" }
 end
   
