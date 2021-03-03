@@ -5,8 +5,7 @@ end
 # prints out 7 dwarves in a numbered list 
 
 def summon_captain_planet(array)
-  new_array = []
   # need to change array to a string, capitalize each word and add ! and covert back #to array
-  planeteer_calls.map {|el, ind| new_array << planeteer_calls.capitalize
+  planeteer_calls.map {|el, ind| new_array << puts "#{planeteer_calls.capitalize + "!"} }
 end
   
